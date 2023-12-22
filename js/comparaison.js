@@ -7,6 +7,7 @@ const cty = {
     .range(d3.schemeCategory10),
   countries: [],
 };
+//Comparaison
 
 function CreateComparaison() {
   let rec = d3
@@ -39,6 +40,7 @@ function CreateComparaison() {
       console.log(err);
     });
 }
+thub;
 
 function CreateSelecteur(data) {
   let compare = d3.select("#compare").append("g");
